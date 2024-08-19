@@ -18,7 +18,7 @@ public class Main {
                 System.out.println("¡Conexión exitosa a la base de datos!");
 
                 // Insertar un nuevo registro
-                Prueba newPrueba = new Prueba(2, "john_doe", "password123");
+                Prueba newPrueba = new Prueba(3, "john_doe", "password123");
                 dbOps.insertPrueba(connection, newPrueba);
 
                 // Consultar registros
